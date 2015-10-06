@@ -2,7 +2,7 @@
 
  This is a simple invoice generator for developers / freelancer who are lazy to use some software to manage the invoices.
 
- The solution works basically by taking in json file with the relavent data and spiting out a html file that can be viewed by the browser and printed to a PDF or Papaer. 
+ The solution works basically by taking in json file with the relavent data and spiting out a html file that can be viewed by the browser and printed to a PDF or Paper. 
 
 
 # Installation
