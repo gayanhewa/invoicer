@@ -1,0 +1,32 @@
+{
+  "owner": {
+    "name" : "Gayan Hewa",
+    "email": "gayanhewa@gmail.com",
+    "address1": "Address Line 1",
+    "address2": "Address Line 2, 000000",
+    "address3": "Country",
+    "logo": "http://nextstepwebs.com/images/logo.png"
+  },
+  "receiver": {
+    "name": "Invoicee Company Pte Ltd",
+    "contact_name": "John Doe",
+    "email": "abc@abc.com",
+    "address1": "Address Line 1",
+    "address2": "Address Line 2, 000000",
+    "address3": "Country"
+  },
+  "items":[
+    {
+      "description": "Invoice for 1st - 15th Oct",
+      "qty": 15,
+      "unit-price": 40,
+      "total": 600
+    },
+    {
+      "description": "Invoice for 16th- 30th Oct",
+      "qty": 10,
+      "unit-price": 40,
+      "total": 400
+    }
+  ]
+}
