@@ -13,7 +13,7 @@
             "in": "vendor"
         }
     ],
-    "git-version": "package_version",
+    "git-version": "0.0.1",
     "main": "bin/invoicer",
     "output": "invoicer.phar",
     "stub": true
