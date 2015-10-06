@@ -109,7 +109,7 @@ Or even a URL , you can have your invoice json files in a S3 bucket may be for a
 
 The generated invoice will look like below :
 
-![Preview](http://www.gayanhewa.info/invoicer/asset/invoice.png)]	
+![Preview](http://www.gayanhewa.info/invoicer/asset/invoice.png)
 		
 ## TODO 
 
