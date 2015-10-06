@@ -99,14 +99,15 @@
                     <table>
                         <tr>
                             <td class="title">
-                                <img src="<?=$this->e($data['owner']['logo'])?>" style="width:100%; max-width:300px;">
+
+                                <img src="<?=$this->e($data['owner']['logo'])?>" alt="My Company Logo" style="width:100%; max-width:300px;">
                             </td>
                             <td></td>
                             <td></td>
                             <td class="top-meta">
                                 Invoice #: <?=time();?><br>
-                                Created: <?=date('Y-m-d');?> <br>
-                                Due: <?=date('Y-m-d');?>
+                                Created: <?=$this->e($data['created_date'])?> <br>
+                                Due: <?=$this->e($data['due_date'])?>
                             </td>
                         </tr>
                     </table>

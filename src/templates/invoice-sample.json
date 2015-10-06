@@ -5,7 +5,7 @@
     "address1": "Address Line 1",
     "address2": "Address Line 2, 000000",
     "address3": "Country",
-    "logo": "http://nextstepwebs.com/images/logo.png"
+    "logo": "http://gayanhewa.info/logo.png"
   },
   "receiver": {
     "name": "Invoicee Company Pte Ltd",
@@ -28,5 +28,7 @@
       "unit-price": 40,
       "total": 400
     }
-  ]
+  ],
+  "due_date": "21st, Oct 2015",
+  "created_date": "15th, Oct 2015"
 }
