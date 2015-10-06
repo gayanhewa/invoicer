@@ -96,12 +96,16 @@
 		./bin/invoicer.phar invoice:create ./sample.json
 
 	```	
+	Or even a URL , you can have your invoice json files in a S3 bucket may be for archival sake.
 
+	```
+		./bin/invoicer.phar invoice:create https://raw.githubusercontent.com/gayanhewa/invoicer/master/src/templates/invoice-sample.json
+	```
+		
 # TODO 
 
  - Unit testing 
 
- 
 # Credits 
 
  - Invoice template - https://github.com/NextStepWebs/simple-html-invoice-template 
