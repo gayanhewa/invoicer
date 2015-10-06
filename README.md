@@ -14,7 +14,7 @@ You have the option to clone this repo and build the phar. Or download the phar 
 
 
 
-In order to build you need to have [Box](https://github.com/box-project/) installed. You can run the below steps :
+If you decide to build it your self , you need to have [Box](https://github.com/box-project/) installed. You can run the below steps :
 
 	
 		box build -c manifest.json
@@ -119,3 +119,4 @@ Or even a URL , you can have your invoice json files in a S3 bucket may be for a
  - Symfony Console Package - https://github.com/symfony/console.git
  - Seld Jsonlint - https://github.com/Seldaek/jsonlint.git
  - The PHP League Plates - https://github.com/thephpleague/plates.git
+ - Box Project - https://github.com/box-project
