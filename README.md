@@ -5,7 +5,7 @@
  The solution works basically by taking in json file with the relavent data and spiting out a html file that can be viewed by the browser and printed to a PDF or Paper. 
 
 
-# Installation
+## Installation
 
 You have the option to clone this repo and build the phar. Or download the phar [directly](https://github.com/gayanhewa/invoicer/blob/master/bin/invoicer.phar).
 
@@ -23,7 +23,7 @@ If you decide to build it your self , you need to have [Box](https://github.com/
 This command will generate the invoicer.phar to bin directory. You can alternatively move add it to your $PATH.
 
 
-# Useage 
+## Useage 
 
 		Usage:
 		  command [options] [arguments]
@@ -107,13 +107,15 @@ Or even a URL , you can have your invoice json files in a S3 bucket may be for a
 	
 		./bin/invoicer.phar invoice:create https://raw.githubusercontent.com/gayanhewa/invoicer/master/src/templates/invoice-sample.json
 
-	
+The generated invoice will look like below :
+
+![Preview](http://www.gayanhewa.info/invoicer/asset/invoice.png)]	
 		
-# TODO 
+## TODO 
 
  - Unit testing 
 
-# Credits 
+## Credits 
 
  - Invoice template - https://github.com/NextStepWebs/simple-html-invoice-template
  - Logo Icon made by Freepik from www.flaticon.com  
