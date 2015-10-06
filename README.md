@@ -7,7 +7,12 @@
 
 # Installation
 
-	You have the option to clone this repo and build the phar. Or download the phar directly.
+	You have the option to clone this repo and build the phar. Or download the phar [directly](https://github.com/gayanhewa/invoicer/blob/master/bin/invoicer.phar).
+
+	```
+		wget https://github.com/gayanhewa/invoicer/blob/master/bin/invoicer.phar
+		
+	```
 
 	In order to build you need to have [Box](https://github.com/box-project/) installed. You can run the below steps :
 
