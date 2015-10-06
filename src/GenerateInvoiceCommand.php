@@ -27,7 +27,7 @@ class GenerateInvoiceCommand extends Command
   protected function execute(InputInterface $input, OutputInterface $output)
   {
     $name = $input->getArgument('input-file');
-    $content = file_get_contents("./{$name}", FILE_USE_INCLUDE_PATH);
+    $content = file_get_contents("{$name}", FILE_USE_INCLUDE_PATH);
 
     // validate json 
     $parser = new JsonParser();
@@ -48,11 +48,11 @@ class GenerateInvoiceCommand extends Command
 
   protected function generateTex($data)
   {
-    $templates = new \League\Plates\Engine('./templates');
+    $templates = new \League\Plates\Engine('phar://invoicer.phar/src/templates');
 
     $output = $templates->render('invoice', ['data'=>$data]);
 
-    file_put_contents('./invice.html', $output);
+    file_put_contents('./invoice-'.date('Y-m-d').'.html', $output);
   }
 
 }

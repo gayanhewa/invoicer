@@ -14,7 +14,7 @@
         }
     ],
     "git-version": "0.0.1",
-    "main": "bin/invoicer",
-    "output": "invoicer.phar",
+    "main": "src/Invoicer",
+    "output": "bin/invoicer.phar",
     "stub": true
 }
