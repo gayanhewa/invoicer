@@ -7,25 +7,26 @@
 
 # Installation
 
-	You have the option to clone this repo and build the phar. Or download the phar [directly](https://github.com/gayanhewa/invoicer/blob/master/bin/invoicer.phar).
+You have the option to clone this repo and build the phar. Or download the phar [directly](https://github.com/gayanhewa/invoicer/blob/master/bin/invoicer.phar).
 
 	```
 		wget https://github.com/gayanhewa/invoicer/blob/master/bin/invoicer.phar
-		
+
 	```
 
-	In order to build you need to have [Box](https://github.com/box-project/) installed. You can run the below steps :
+In order to build you need to have [Box](https://github.com/box-project/) installed. You can run the below steps :
 
 	```
 		box build -c manifest.json
 	```
 
-	This command will generate the invoicer.phar to bin directory. You can alternatively move add it to your $PATH.
+This command will generate the invoicer.phar to bin directory. You can alternatively move add it to your $PATH.
 
 
 # Useage 
 
 	```
+	
 		Usage:
 		  command [options] [arguments]
 
@@ -44,18 +45,19 @@
 		 invoice
 		  invoice:create  Create Invoice
 		  invoice:sample  Show Sample Json File
+
 	```
 
 ### invoice:sample 
 	
-	This command will print out how a sample json file looks. You can save it locally and change and use it as an argument for the invoice:create.
+This command will print out how a sample json file looks. You can save it locally and change and use it as an argument for the invoice:create.
 
 	```
 		./bin/invoicer.phar invoice:sample > sample.json
 
 	```	
 
-	Sample JSON file :
+Sample JSON file :
 
 	```
 		{
@@ -90,21 +92,23 @@
 		    }
 		  ]
 		}
+
 	```
 
 
 ### invoice:create
 
-	The invoice:crate will take in a input file as the first argument and then return the invoice in html format.
+The invoice:crate will take in a input file as the first argument and then return the invoice in html format.
 
 	```
 		./bin/invoicer.phar invoice:create ./sample.json
 
 	```	
-	Or even a URL , you can have your invoice json files in a S3 bucket may be for archival sake.
+Or even a URL , you can have your invoice json files in a S3 bucket may be for archival sake.
 
 	```
 		./bin/invoicer.phar invoice:create https://raw.githubusercontent.com/gayanhewa/invoicer/master/src/templates/invoice-sample.json
+
 	```
 		
 # TODO 
