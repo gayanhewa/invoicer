@@ -115,7 +115,8 @@ Or even a URL , you can have your invoice json files in a S3 bucket may be for a
 
 # Credits 
 
- - Invoice template - https://github.com/NextStepWebs/simple-html-invoice-template 
+ - Invoice template - https://github.com/NextStepWebs/simple-html-invoice-template
+ - Logo Icon made by Freepik from www.flaticon.com  
  - Symfony Console Package - https://github.com/symfony/console.git
  - Seld Jsonlint - https://github.com/Seldaek/jsonlint.git
  - The PHP League Plates - https://github.com/thephpleague/plates.git
