@@ -62,33 +62,35 @@ Sample JSON file :
 		  "owner": {
 		    "name" : "Gayan Hewa",
 		    "email": "gayanhewa@gmail.com",
-		    "address1": "Address Line 1",
-		    "address2": "Address Line 2, 000000",
-		    "address3": "Country",
-		    "logo": "http://nextstepwebs.com/images/logo.png"
+		    "address1": "#19-291, Block 622C",
+		    "address2": "Punggol Central, 823622",
+		    "address3": "Singapore",
+		    "logo": "http://gayanhewa.info/invoicer/asset/logo.png"
 		  },
 		  "receiver": {
 		    "name": "Invoicee Company Pte Ltd",
-		    "contact_name": "John Doe",
-		    "email": "abc@abc.com",
-		    "address1": "Address Line 1",
-		    "address2": "Address Line 2, 000000",
-		    "address3": "Country"
+		    "contact_name": "Pearl R. Vest",
+		    "email": "PearlRVest@dayrep.com",
+		    "address1": "4349 Eagles Nest Drive",
+		    "address2": "Sacramento, CA 95814",
+		    "address3": "United States"
 		  },
 		  "items":[
 		    {
 		      "description": "Invoice for 1st - 15th Oct",
 		      "qty": 15,
-		      "unit-price": 40.00,
-		      "total": 600.00
+		      "unit-price": 40,
+		      "total": 600
 		    },
 		    {
 		      "description": "Invoice for 16th- 30th Oct",
 		      "qty": 10,
-		      "unit-price": 40.00,
-		      "total": 400.00
+		      "unit-price": 40,
+		      "total": 400
 		    }
-		  ]
+		  ],
+		  "due_date": "21st, Oct 2015",
+		  "created_date": "15th, Oct 2015"
 		}
 
 	
