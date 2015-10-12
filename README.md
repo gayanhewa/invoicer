@@ -1,3 +1,5 @@
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/fd7775cb-0ca3-44e1-9421-a714085476a3/big.png)](https://insight.sensiolabs.com/projects/fd7775cb-0ca3-44e1-9421-a714085476a3)
+
 # Invoicer
 
  This is a simple invoice generator for developers / freelancer who are lazy to use some software to manage the invoices.
